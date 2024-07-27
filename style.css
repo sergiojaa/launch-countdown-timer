@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #46485b;
+    
+}
+.container{
+    max-height: max-content;
+}
+.launch{
+    width: 327px;
+    height: 48px;
+    margin: 144px 24px 54px;
+    font-family: RedHatText;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 6.14px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer{
+    /* width: 375px; */
+  flex-grow: 0;
+  height: 100px;
+  margin: 170px 0 0;
+  background-color: #2f2439;
+  background-image: url(images/pattern-hills.svg);
+}
+.p-time{
+    display: flex;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-content{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+  height: 66.3px;
+  padding: 0 0 14.3px;
+  border-radius: 4px;
+  background-color: #343650;
+  margin: 5px;
+  align-items: center;
+}
+.box-caption{
+    text-align: center;
+  color: #8385a9;
+  font-size: 17px;
+  font-weight: bold;
+  width: 70px;
+  height: 12px;
+  margin: 9px 0 0;
+}
+.footer-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.box-value{
+    font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #fb5e84;
+  
+}
+.fb-image{
+    padding: 10px;
+}
+.insta-image{
+    padding: 10px;
+}
+.p-image{
+    padding: 10px;
+}
